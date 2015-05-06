@@ -19,22 +19,23 @@
   <![endif]-->
 </head>
 
-<body data-spy="scroll" data-target="#th-navbar">
+<body data-spy="scroll" data-target="#th-navbar" class="th-font">
 
 <div id="th-navbar">
   <div class="th-brand" href="#home"><img src="images/Logo2NoBackground.png"/></div>
   <div class="nav th-nav">
     <ul style="margin-left: 150px;">
       <li><a href="#home">Home</a></li>
-      <li><a href="#web">Web</a></li>
-      <li><a href="#product">Product</a></li>
+      <li><a href="#th-web">Web</a></li>
+      <li><a href="#th-product">Product</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </div>
 
   <div id="home"></div>
-  <img class="th-cover" src="images/Background_Skyline.jpg">
+  <div class="th-overlay"></div>
+  <img class="th-header-image" src="images/billyburgbridge.png">
 
   <div class="container">
     <div class="row">
@@ -73,8 +74,7 @@
     </div>
   </div>
 
-  <img id="th-web" src="images/web_background.png">
-  <div id="web"></div>
+  <div id="th-web"></div>
   <div class="container th-foreground-container">
     <div class="row">
       <div class="col-md-12">
@@ -108,7 +108,7 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-            <a href="http://www.relsci.com" class="th-thumbnail">
+            <a target="_blank" href="http://www.relsci.com" class="th-thumbnail">
               <div style="position: relative">
                 <img src="images/RelSci.png">
                 <div class="more">
@@ -170,7 +170,7 @@
               </a>
               </div>
               <div class="col-md-6">
-              <a href="http://www.3helix.rpi.edu/?tag=dna-rockstar" class="th-thumbnail">
+              <a target="_blank" href="http://www.3helix.rpi.edu/?tag=dna-rockstar" class="th-thumbnail">
                 <div style="position: relative">
                   <img src="images/Product2.png">
                   <div class="more">
@@ -184,7 +184,7 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-              <a href="#" class="th-thumbnail">
+              <a target="_blank" href="http://www.eship.rpi.edu/event_videos33f1.html?q=23" class="th-thumbnail">
                 <div style="position: relative">
                   <img src="images/Product3.png">
                   <div class="more">
@@ -227,7 +227,7 @@
     </div>
     </div>
 
-    <div id="th-contact-header"></div>
+    <!--div id="th-contact-header"></div-->
     <div id="th-contact"></div>
     <div class="container th-foreground-container">
       <div class="row">
@@ -244,7 +244,7 @@
                 <span class="th-glyphicon glyphicon glyphicon-globe"></span>
                 <div class="th-contact-text"><a href="index.html">www.hollanddesign.nyc</a></div>
                 <span class="th-glyphicon glyphicon glyphicon-file"></span>
-                <div class="th-contact-text"><a href="thomas_holland_resume.pdf">Download Resume</a></div>
+                <div class="th-contact-text"><a target="_blank" href="thomas_holland_resume.pdf">Download Resume</a></div>
               </div>
               <div class="th-resume-block">
                 <div class="th-resume-header">Education</div>
