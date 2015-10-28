@@ -137,6 +137,11 @@ img.diamond-logo{
   font-family: avenir, helvetica, arial, sans-serif;
 }
 
+.th-nav ul{
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
 .th-nav li{
   display: inline-block;
   padding: 0px 5px 20px 5px;
@@ -326,6 +331,16 @@ em a{
   font-size: 18px;
   padding-top: 10px;
 }
+
+.th-resume{
+  margin-top: 15px;
+  border: 1px solid #333
+}
+
+  .th-resume img{
+    max-width: 100%;
+    height: auto;
+  }
 
 .th-resume-block{
   height: 40px;
