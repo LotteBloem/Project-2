@@ -1,9 +1,9 @@
 #th-header{
-  background-color: #ef3b39;
-  height: 80px;
+  background-color: #FAFAFA;
+  height: 74px;
   width: 100%;
   position: absolute;
-  border-bottom: 4px solid #6F1C1B;
+  border-bottom: 2px solid #6F1C1B;
 }
 
 #th-web{
@@ -40,7 +40,7 @@
 }
 
 .th-font{
-  font-family: Amble-Regular, Arial, Sans-Serif;
+  font-family: Avenir, helvetica, Arial, Sans-Serif;
 }
 
 .th-cover{
@@ -109,9 +109,9 @@ img.diamond-logo{
 
 .th-brand {
   float: left;
-  padding: 3.5px;
-  padding-right: 10px;
-  background-color: #ef3b39;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  background-color: #FAFAFA;
 }
 .th-brand:hover,
 .th-brand:focus {
@@ -121,41 +121,41 @@ img.diamond-logo{
 #th-navbar{
   display: block;
   position: fixed;
-  height: 80px;
+  height: 74px;
   width: 100%;
   z-index: 100;
 }
 
 .th-nav{
-  background-color: #333;
-  color: #fff;
-  height: 80px;
+  background-color: #FAFAFA;
+  color: #333;
+  height: 74px;
   width: 100%;
   list-style: none;
-  border-bottom: 3px solid #666;
+  border-bottom: 2px solid #666;
   font-size: 14pt;
-  font-family: Amble-Light;
+  font-family: avenir, helvetica, arial, sans-serif;
 }
 
 .th-nav li{
   display: inline-block;
   padding: 0px 5px 20px 5px;
-  margin: 30px 15px 0px 15px;
+  margin: 25px 15px 0px 15px;
 }
 
 .th-nav li.active{
-  border-bottom: 3px solid #ef3b39;
-
+  border-bottom: 2px solid #ef3b39;
   color: #fff;
 }
 
 .th-nav li a{
-  color: #ccc;
+  color: #333;
 }
 
 .th-nav li.active a{
-  font-family: Amble-Regular;
-  color: #fff;
+  font-family: Avenir, helvetica, arial, sans-serif;
+  font-weight: bold;
+  color: #333;
 }
 
 .th-nav li a:hover{
@@ -187,7 +187,7 @@ img.diamond-logo{
 .th-title{
   text-align: left;
   color: #fff;
-  font-style: bold;
+  font-weight: normal;
   margin-top: 200px;
   margin-bottom: 420px;
   font-size: 36pt;
