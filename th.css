@@ -2,9 +2,15 @@
   background-color: #FAFAFA;
   height: 74px;
   width: 100%;
-  position: absolute;
-  border-bottom: 2px solid #6F1C1B;
+  border-bottom: 2px solid #666;
 }
+
+  .th-logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
 
 #th-web{
   height: 1600px;
@@ -54,8 +60,8 @@
 
   /* Set up positioning */
   position: fixed;
-  top: -100px;
-  left: 0;
+  top: 0px;
+  left: 0px;
   z-index: -1;
 }
 
@@ -66,7 +72,6 @@
   }
 }
 
-
 .th-header-image{
   height: auto;
   width: 100%;
@@ -76,25 +81,16 @@
 }
 
 .th-overlay{
-  min-height: 800px;
-  width: 100%;
-  position: absolute;
-  background: black;
-  opacity: .7;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
 
 .th-foreground-container{
   position: relative;
-  z-index: 1;
-}
-
-img.logo{
-  display: block;
-  margin-top: 3px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ef3b39;
+  width: inherit;
+  background-color: #fff;
+  z-index: 0;
 }
 
 img.diamond-logo{
@@ -245,7 +241,7 @@ em a{
 
 .th-subtitle{
   margin-top: 10px;
-  margin-bottom: 250px;
+  margin-bottom: 140px;
   font-size: 24px;
   color: #888;
 }
@@ -425,7 +421,7 @@ em a{
 }
 
 .th-background{
-  height: 1600px;
+  height: auto;
   width: 100%;
   background-color: #fff;
   position: absolute;
