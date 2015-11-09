@@ -2,32 +2,83 @@
   background-color: #FAFAFA;
   height: 74px;
   width: 100%;
-  position: absolute;
-  border-bottom: 2px solid #6F1C1B;
+  border-bottom: 2px solid #666;
 }
 
+  .th-logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+
+@media only screen and (max-width: 768px) {
+  .th-logo-small{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+}
+
+  #th-logo-homepage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 274px 0px 100px 0px;
+    opacity: .33;
+  }
+
+  #th-title{
+    text-align: center;
+    color: #fafafa;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-size: 36pt;
+  }
+
 #th-web{
-  height: 1600px;
+  height: auto;
   width: 100%;
-  position: absolute;
+  display: block;
   box-shadow: 0px -2px 6px #333;
-  background-color: #e2e2e2;
+  background-color: #fafafa;
+}
+
+#web-header{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 36pt;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #th-product{
   background-color: #333;
-  height: 1600px;
+  height: auto;
   width: 100%;
-  position: absolute;
-  z-index: -1;
+  display: block;
+  z-index: 0;
+}
+
+#product-header{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 36pt;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-weight: inherit;
+  text-align: center;
 }
 
 #th-contact{
-  height: 1380px;
+  height: auto;
   width: 100%;
-  background-color: #fff;
-  position: absolute;
-  z-index: -1;
+  background-color: #fafafa;
+  display: block;
+  z-index: 0;
 }
 
 #th-contact-header{
@@ -54,8 +105,8 @@
 
   /* Set up positioning */
   position: fixed;
-  top: -100px;
-  left: 0;
+  top: 0px;
+  left: 0px;
   z-index: -1;
 }
 
@@ -66,41 +117,39 @@
   }
 }
 
-
-.th-header-image{
-  height: auto;
-  width: 100%;
-  min-width: 1200px;
-  position: absolute;
-  z-index: -1;
+.th-cover-alt{
+  height: 500px;
+  background-image: url(images/Monarch_Header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .th-overlay{
-  min-height: 800px;
-  width: 100%;
-  position: absolute;
-  background: black;
-  opacity: .7;
+  display: block;
+  height: auto;
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 0;
 }
 
 .th-foreground-container{
   position: relative;
-  z-index: 1;
-}
-
-img.logo{
-  display: block;
-  margin-top: 3px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ef3b39;
+  width: inherit;
+  background-color: #fff;
+  z-index: 0;
 }
 
 img.diamond-logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -62px;
 }
 
 .placeholder{
@@ -108,11 +157,12 @@ img.diamond-logo{
 }
 
 .th-brand {
-  float: left;
-  padding: 5px 5px 5px 5px;
-  margin: 10px;
-  background-color: #FAFAFA;
+  display: table;
+  padding: 14px 0px 14px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .th-brand:hover,
 .th-brand:focus {
   text-decoration: none;
@@ -124,28 +174,31 @@ img.diamond-logo{
   height: 74px;
   width: 100%;
   z-index: 100;
+  background-color: #fafafa;
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #666;
 }
 
 .th-nav{
-  background-color: #FAFAFA;
   color: #333;
   height: 74px;
   width: 100%;
   list-style: none;
-  border-bottom: 2px solid #666;
   font-size: 14pt;
   font-family: avenir, helvetica, arial, sans-serif;
 }
 
 .th-nav ul{
-  margin-left: 33%;
-  margin-right: 33%;
+  display: table;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .th-nav li{
   display: inline-block;
-  padding: 0px 5px 20px 5px;
-  margin: 25px 15px 0px 15px;
+  padding: 0px 0px 22px 0px;
+  margin: 23px 0px 0px 0px;
 }
 
 .th-nav li.active{
@@ -174,6 +227,8 @@ img.diamond-logo{
   background-color: #333;
   padding: 10px 15px 10px 20px;
   z-index: 5;
+  border-radius: 0px 3px 3px 0px;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);
 }
 
 .th-back a{
@@ -187,15 +242,6 @@ img.diamond-logo{
 .th-back a:focus{
   text-decoration: none;
   color: #ef3b39;
-}
-
-.th-title{
-  text-align: left;
-  color: #fff;
-  font-weight: normal;
-  margin-top: 200px;
-  margin-bottom: 420px;
-  font-size: 36pt;
 }
 
 em{
@@ -229,25 +275,20 @@ em a{
   text-transform: uppercase;
 }
 
-#web-header{
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 36pt;
-  color: #333;
-  text-transform: uppercase;
-}
 
 .th-alt-title{
   margin-top: 140px;
   font-size: 36pt;
   color: #fff;
+  text-align: center;
 }
 
 .th-subtitle{
   margin-top: 10px;
-  margin-bottom: 250px;
+  margin-bottom: 140px;
   font-size: 24px;
   color: #888;
+  text-align: center;
 }
 
 .th-thumbnail{
@@ -261,8 +302,8 @@ em a{
 
 .th-thumbnail img{
   height: auto;
-  width: auto;
-  align: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .more{
@@ -305,6 +346,7 @@ em a{
   font-size: 36pt;
   color: #333;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .th-contact-container{
@@ -315,7 +357,6 @@ em a{
 .th-contact-text{
   display: inline-block;
   font-size: 14px;
-  font-weight: bold;
   vertical-align: text-bottom;
   margin-left: 5px;
   margin-right: 15px;
@@ -366,15 +407,21 @@ em a{
 }
 
 .level3{
-  color: #666;
-  border-left: 1px solid #ef3b39;
-  padding-left: 5px;
+  display: inline-block;
+  background: transparent;
+  border-radius: 10px;
+  height: 50px;
+  width: 4px;
+  box-shadow: -10px 0px 0 0 #D02B2B;
+  opacity: .33;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .th-spacer{
   height: 50px;
   width: 100%;
+  background-color: inherit;
 }
 
 
@@ -402,51 +449,54 @@ em a{
   }
 
 .th-footer{
-  margin-top: 20px;
   height: 80px;
   width: 100%;
   background-color: #333;
   border-top: 4px solid #666;
+  z-index: 1;
+}
+
+.th-rapper{
+  min-height: 100%;
+  margin-bottom: -84px
 }
 
 #th-green{
   padding-top: 20px;
-  color: #fff;
+  padding-bottom: 20px;
+  color: #fafafa;
   font-size: 18px;
-  line-height: 1.5;
+  font-weight: lighter;
 }
 
 #th-greengreeks-middle{
-  height: 100px;
+  height: auto;
   width: 100%;
-  position: absolute;
   background-image: url(images/greengreekstexture.png);
   border-top: 4px solid #004712;
 }
 
 .th-background{
-  height: 1600px;
+  height: auto;
   width: 100%;
-  background-color: #fff;
-  position: absolute;
-  top: 500px;
+  background-color: #fafafa;
+  display: block;
   z-index: 0;
   border-top: 5px solid black;
 }
 
 .under-construction{
-  color: #E1E1E1;
+  color: #333;
   font-size: 36px;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 350px;
+  margin-bottom: 400px;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 0px -1px 0px #B4B4B4;
 }
 
 .under-construction p{
-  color: #9A9A9A;
+  color: #333;
   font-size: 20px;
   margin-top: 15px;
   font-weight: normal;
@@ -455,10 +505,36 @@ em a{
 }
 
 #monarch-bg{
-  position: absolute;
   width: 100%;
-  height: 613px;
+  height: auto;
   background-color: #D8D8D8;
   border-top: 2px solid #979797;
   z-index: 0;
+}
+
+@media only screen and (max-width: 476px) {
+  #web-header {
+    font-size: 24pt;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #product-header {
+    font-size: 23pt;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+  }
+  #th-contact-header-text{
+    margin-top: 40px;
+    font-size: 24pt;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
