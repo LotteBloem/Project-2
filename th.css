@@ -11,6 +11,16 @@
     margin-right: auto;
     padding: 15px;
   }
+
+@media only screen and (max-width: 768px) {
+  .th-logo-small{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+}
+
   #th-logo-homepage img{
     display: block;
     margin-left: auto;
@@ -29,9 +39,9 @@
   }
 
 #th-web{
-  height: 1600px;
+  height: auto;
   width: 100%;
-  position: absolute;
+  display: block;
   box-shadow: 0px -2px 6px #333;
   background-color: #fafafa;
 }
@@ -47,9 +57,9 @@
 
 #th-product{
   background-color: #333;
-  height: 1600px;
+  height: auto;
   width: 100%;
-  position: absolute;
+  display: block;
   z-index: 0;
 }
 

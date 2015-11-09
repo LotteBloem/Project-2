@@ -21,36 +21,41 @@
 
 <body data-spy="scroll" data-target="#th-navbar" class="th-font">
 
-<div id="th-navbar">
+<div id="th-navbar" role="navigation">
   <div class="container">
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-1">
-        <div class="nav th-nav">
+        <div class="nav th-nav hidden-xs hidden-sm">
           <ul>
             <li><a href="#home">Home</a></li>
           </ul>
         </div>
       </div>
       <div class="col-md-1">
-        <div class="nav th-nav">
+        <div class="nav th-nav hidden-xs hidden-sm">
           <ul>
             <li><a href="#th-web">Web</a></li>
           </ul>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="th-brand" href="#home"><img src="images/Logo_HollandDesign.png"/></div>
+        <div class="th-brand hidden-xs">
+          <a href="#home"><img src="images/Logo_HollandDesign.png"/>
+        </div>
+        <div class="th-logo-small hidden-sm hidden-md hidden-lg">
+          <a href="#home"><img src="images/Logo_HollandDesign_Small.png"/>
+          </div>
       </div>
       <div class="col-md-1">
-        <div class="nav th-nav">
+        <div class="nav th-nav hidden-xs hidden-sm">
           <ul>
             <li><a href="#th-product">Product</a></li>
           </ul>
         </div>
       </div>
       <div class="col-md-1">
-        <div class="nav th-nav">
+        <div class="nav th-nav hidden-xs hidden-sm">
           <ul>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -61,134 +66,58 @@
   </div>
 </div>
 
-  <div id="home"></div>
-  <img class="th-cover" src="images/billyburgbridge.png">
-  <div class="th-overlay">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="th-logo-homepage">
-            <img src="images/logo.png" alt="" />
+  <div id="home">
+    <img class="th-cover" src="images/billyburgbridge.png">
+    <div class="th-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="th-logo-homepage">
+              <img src="images/logo.png" alt="" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div>
-            <h2 class="th-title">
-              <div class="level3" style="margin-right: 211px;">Designer</div>
-              <div class="level3" style="margin-right: 241px;">Developer</div>
-              <div class="level3" style="margin-right: 237px;">Brooklynite</div>
-            </h2>
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+              <h2 class="th-title">
+                <div class="level3" style="margin-right: 211px;">Designer</div>
+                <div class="level3" style="margin-right: 241px;">Developer</div>
+                <div class="level3" style="margin-right: 237px;">Brooklynite</div>
+              </h2>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="th-web"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div style="padding-bottom: 20px;">
-          <h2 id="web-header">Web Design <em>.</em></h2>
-          <div class="row">
-            <div class="col-md-6">
-            <a href="blackstone.html" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/Thumb1.png">
-                <div class="more" >
-                  <div class="inner">
-                    <div class="more-text">Blackstone</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
-            <div class="col-md-6">
-            <a href="green_greeks.html" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/Thumb2.png">
-                <div class="more">
-                  <div class="inner">
-                    <div class="more-text">Green Greeks</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <a target="_blank" href="http://www.relsci.com" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/RelSci.png">
-                <div class="more">
-                  <div class="inner">
-                    <div class="more-text">Relationship Science</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-          <a href="monarch.html" class="th-thumbnail">
-            <div style="position: relative">
-              <img src="images/iPhone6_Monarch.png">
-              <div class="more">
-                <div class="inner">
-                  <div class="more-text">Monarch</div>
-                </div>
-              </div>
-            </div>
-          </a>
-          </div>
-          <div class="col-md-6">
-          <a target="_blank" href="thomas_holland_portfolio.pdf" class="th-thumbnail">
-            <div style="position: relative">
-              <img src="images/Desk_Photo.png">
-              <div class="more">
-                <div class="inner">
-                  <div class="more-text">View Portfolio</div>
-                </div>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    </div>
-
-    <div id="th-product"></div>
+  <div id="th-web">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div id="product">
-            <h2 id="product-header">Product Design <em>.</em></h2>
+          <div style="padding-bottom: 20px;">
+            <h2 id="web-header">Web Design <em>.</em></h2>
             <div class="row">
               <div class="col-md-6">
-              <a href="construction.html" class="th-thumbnail">
+              <a href="blackstone.html" class="th-thumbnail">
                 <div style="position: relative">
-                  <img src="images/Product1.png">
+                  <img src="images/Thumb1.png">
                   <div class="more" >
                     <div class="inner">
-                      <div class="more-text">Aid Kit</div>
+                      <div class="more-text">Blackstone</div>
                     </div>
                   </div>
                 </div>
               </a>
               </div>
               <div class="col-md-6">
-              <a target="_blank" href="http://www.3helix.rpi.edu/?tag=dna-rockstar" class="th-thumbnail">
+              <a href="green_greeks.html" class="th-thumbnail">
                 <div style="position: relative">
-                  <img src="images/Product2.png">
+                  <img src="images/Thumb2.png">
                   <div class="more">
                     <div class="inner">
-                      <div class="more-text">DNA Rockstar</div>
+                      <div class="more-text">Green Greeks</div>
                     </div>
                   </div>
                 </div>
@@ -197,26 +126,26 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-              <a target="_blank" href="http://www.eship.rpi.edu/event_videos33f1.html?q=23" class="th-thumbnail">
+              <a target="_blank" href="http://www.relsci.com" class="th-thumbnail">
                 <div style="position: relative">
-                  <img src="images/Product3.png">
+                  <img src="images/RelSci.png">
                   <div class="more">
                     <div class="inner">
-                      <div class="more-text">CANESTAND</div>
+                      <div class="more-text">Relationship Science</div>
                     </div>
                   </div>
                 </div>
               </a>
             </div>
           </div>
-          <div class="row" style="margin-bottom: 20px;">
+          <div class="row">
             <div class="col-md-6">
-            <a href="construction.html" class="th-thumbnail">
+            <a href="monarch.html" class="th-thumbnail">
               <div style="position: relative">
-                <img src="images/Product4.png">
+                <img src="images/iPhone6_Monarch.png">
                 <div class="more">
                   <div class="inner">
-                    <div class="more-text">Branding</div>
+                    <div class="more-text">Monarch</div>
                   </div>
                 </div>
               </div>
@@ -235,9 +164,88 @@
             </a>
             </div>
           </div>
+          </div>
         </div>
       </div>
+      </div>
     </div>
+
+    <div id="th-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="product">
+              <h2 id="product-header">Product Design <em>.</em></h2>
+              <div class="row">
+                <div class="col-md-6">
+                <a href="construction.html" class="th-thumbnail">
+                  <div style="position: relative">
+                    <img src="images/Product1.png">
+                    <div class="more" >
+                      <div class="inner">
+                        <div class="more-text">Aid Kit</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col-md-6">
+                <a target="_blank" href="http://www.3helix.rpi.edu/?tag=dna-rockstar" class="th-thumbnail">
+                  <div style="position: relative">
+                    <img src="images/Product2.png">
+                    <div class="more">
+                      <div class="inner">
+                        <div class="more-text">DNA Rockstar</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                <a target="_blank" href="http://www.eship.rpi.edu/event_videos33f1.html?q=23" class="th-thumbnail">
+                  <div style="position: relative">
+                    <img src="images/Product3.png">
+                    <div class="more">
+                      <div class="inner">
+                        <div class="more-text">CANESTAND</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom: 20px;">
+              <div class="col-md-6">
+              <a href="construction.html" class="th-thumbnail">
+                <div style="position: relative">
+                  <img src="images/Product4.png">
+                  <div class="more">
+                    <div class="inner">
+                      <div class="more-text">Branding</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-6">
+              <a target="_blank" href="thomas_holland_portfolio.pdf" class="th-thumbnail">
+                <div style="position: relative">
+                  <img src="images/Desk_Photo.png">
+                  <div class="more">
+                    <div class="inner">
+                      <div class="more-text">View Portfolio</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
 
     <div id="th-contact">
