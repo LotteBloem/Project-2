@@ -294,6 +294,7 @@ em a{
   height: auto;
   width: auto;
   align: center;
+  overflow: hidden;
 }
 
 .more{
@@ -446,6 +447,11 @@ em a{
   z-index: 1;
 }
 
+.th-rapper{
+  min-height: 100%;
+  margin-bottom: -84px
+}
+
 #th-green{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -471,18 +477,17 @@ em a{
 }
 
 .under-construction{
-  color: #E1E1E1;
+  color: #333;
   font-size: 36px;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 350px;
+  margin-bottom: 400px;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 0px -1px 0px #B4B4B4;
 }
 
 .under-construction p{
-  color: #9A9A9A;
+  color: #333;
   font-size: 20px;
   margin-top: 15px;
   font-weight: normal;
