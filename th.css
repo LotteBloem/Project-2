@@ -11,13 +11,29 @@
     margin-right: auto;
     padding: 15px;
   }
+  #th-logo-homepage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 274px 0px 100px 0px;
+    opacity: .33;
+  }
+
+  .th-title{
+    text-align: center;
+    color: #fafafa;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-size: 36pt;
+  }
 
 #th-web{
   height: 1600px;
   width: 100%;
   position: absolute;
   box-shadow: 0px -2px 6px #333;
-  background-color: #e2e2e2;
+  background-color: #fafafa;
 }
 
 #web-header{
@@ -26,6 +42,7 @@
   font-size: 36pt;
   color: #333;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #th-product{
@@ -43,6 +60,7 @@
   color: #fafafa;
   text-transform: uppercase;
   font-weight: inherit;
+  text-align: center;
 }
 
 #th-contact{
@@ -216,15 +234,6 @@ img.diamond-logo{
   color: #ef3b39;
 }
 
-.th-title{
-  text-align: center;
-  color: #fafafa;
-  font-weight: normal;
-  margin-top: 300px;
-  margin-bottom: 374px;
-  font-size: 36pt;
-}
-
 em{
   color:#ef3b39;
   font-style: normal;
@@ -327,6 +336,7 @@ em a{
   font-size: 36pt;
   color: #333;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .th-contact-container{
@@ -387,10 +397,15 @@ em a{
 }
 
 .level3{
-  color: #666;
-  border-left: 1px solid #ef3b39;
-  padding-left: 5px;
+  display: inline-block;
+  background: transparent;
+  border-radius: 10px;
+  height: 50px;
+  width: 4px;
+  box-shadow: -10px 0px 0 0 #D02B2B;
+  opacity: .33;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .th-spacer{
