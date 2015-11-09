@@ -89,16 +89,23 @@
   }
 }
 
-.th-header-image{
-  height: auto;
-  width: 100%;
-  min-width: 1200px;
-  position: absolute;
-  z-index: 0;
+.th-cover-alt{
+  height: 500px;
+  background-image: url(images/Monarch_Header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .th-overlay{
   display: block;
+  height: auto;
+  min-width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 0;
 }
@@ -114,6 +121,7 @@ img.diamond-logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -62px;
 }
 
 .placeholder{
@@ -425,15 +433,15 @@ em a{
 
 #th-green{
   padding-top: 20px;
-  color: #fff;
+  padding-bottom: 20px;
+  color: #fafafa;
   font-size: 18px;
-  line-height: 1.5;
+  font-weight: lighter;
 }
 
 #th-greengreeks-middle{
-  height: 100px;
+  height: auto;
   width: 100%;
-  position: absolute;
   background-image: url(images/greengreekstexture.png);
   border-top: 4px solid #004712;
 }
@@ -441,7 +449,7 @@ em a{
 .th-background{
   height: auto;
   width: 100%;
-  background-color: #fff;
+  background-color: #fafafa;
   display: block;
   z-index: 0;
   border-top: 5px solid black;
@@ -468,9 +476,8 @@ em a{
 }
 
 #monarch-bg{
-  position: absolute;
   width: 100%;
-  height: 613px;
+  height: auto;
   background-color: #D8D8D8;
   border-top: 2px solid #979797;
   z-index: 0;
