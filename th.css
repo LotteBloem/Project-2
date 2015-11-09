@@ -29,7 +29,7 @@
     opacity: .33;
   }
 
-  .th-title{
+  #th-title{
     text-align: center;
     color: #fafafa;
     font-weight: normal;
@@ -302,8 +302,7 @@ em a{
 
 .th-thumbnail img{
   height: auto;
-  width: auto;
-  align: center;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -511,4 +510,31 @@ em a{
   background-color: #D8D8D8;
   border-top: 2px solid #979797;
   z-index: 0;
+}
+
+@media only screen and (max-width: 476px) {
+  #web-header {
+    font-size: 24pt;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #product-header {
+    font-size: 23pt;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+  }
+  #th-contact-header-text{
+    margin-top: 40px;
+    font-size: 24pt;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
