@@ -97,7 +97,9 @@
   position: fixed;
   top: 0px;
   left: 0px;
+  right: 0px;
   z-index: -1;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
@@ -123,7 +125,7 @@
 .th-overlay{
   display: block;
   height: auto;
-  min-width: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 0;
 }
