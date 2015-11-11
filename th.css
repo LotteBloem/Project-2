@@ -351,7 +351,8 @@ em a{
 
 .th-resume{
   margin-top: 15px;
-  border: 1px solid #333
+  border: 1px solid #333;
+  background-color: #fff;
 }
 
   .th-resume img{
@@ -526,6 +527,11 @@ em a{
 
 @media only screen and (max-width: 990px) {
   .col-md-3 img {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .th-resume img {
     display: table;
     margin-left: auto;
     margin-right: auto;
