@@ -356,7 +356,7 @@ em a{
 }
 
   .th-resume img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
@@ -527,11 +527,6 @@ em a{
 
 @media only screen and (max-width: 990px) {
   .col-md-3 img {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .th-resume img {
     display: table;
     margin-left: auto;
     margin-right: auto;
