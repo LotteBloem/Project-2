@@ -523,3 +523,11 @@ em a{
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .col-md-3 img {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
