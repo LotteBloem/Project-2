@@ -109,7 +109,7 @@
   }
 }
 
-.th-cover-alt{
+.th-cover-monarch{
   height: 500px;
   background-image: url(images/Monarch_Header.png);
   background-position: center;
@@ -118,6 +118,19 @@
   position: fixed;
   z-index: -2;
   top: 0;
+  left: 0;
+  right: 0;
+}
+
+.th-cover-relsci{
+  height: 500px;
+  background-image: url(images/RelSciHeader.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -2;
+  top: 60px;
   left: 0;
   right: 0;
 }
@@ -300,7 +313,6 @@ em a{
 }
 
 .inner{
-  vertical-align: middle;
   display: table-cell;
   max-width: 100%;
 }
@@ -409,6 +421,25 @@ em a{
   vertical-align: middle;
 }
 
+.th-text-box-relsci{
+  position: relative;
+  font-size: 16px;
+  font-family: avenir-medium;
+  line-height: 1.5;
+}
+
+.th-text-box-relsci p{
+  margin-top: 75px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#relsci1{
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
 .th-divider{
   margin-left: 33%;
   margin-right: 33%;
@@ -459,7 +490,7 @@ em a{
   background-color: #fafafa;
   display: block;
   z-index: 0;
-  border-top: 5px solid black;
+  box-shadow: 0px -3px 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 .under-construction{
@@ -532,3 +563,15 @@ em a{
     margin-right: auto;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .th-text-box-relsci {
+    text-align: center;
+  }
+  .th-text-box-relsci p{
+    display: block;
+    margin-top: auto;
+    position: relative;
+    top: auto;
+    transform: none;
+  }
