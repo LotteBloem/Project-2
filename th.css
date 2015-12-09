@@ -135,15 +135,31 @@
   right: 0;
 }
 
-.th-mobile-image{
+#th-mobile-image{
   content: url(images/Mobile.png);
 }
 
- .active .th-mobile-image{
+.selected #th-mobile-image{
   content: url(images/Mobile_Active.png);
 }
 
-.th-carousel-indicators {
+#th-web-image{
+  content: url(images/Web.png);
+}
+
+.selected #th-web-image{
+  content: url(images/Web_Active.png);
+}
+
+#th-integrations-image{
+  content: url(images/Integrations.png);
+}
+
+.selected #th-integrations-image{
+  content: url(images/Integrations_Active.png);
+}
+
+#th-carousel-indicators {
   display: block;
   margin-top: 75px;
   width: 100%;
