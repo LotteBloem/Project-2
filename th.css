@@ -129,8 +129,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  z-index: -2;
-  top: 60px;
+  z-index: -1;
+  top: 0px;
   left: 0;
   right: 0;
 }
@@ -143,6 +143,11 @@
   content: url(images/Mobile_Active.png);
 }
 
+  li a #th-mobile-image:hover {
+    content: url(images/Mobile_Active.png);
+    cursor: pointer;
+  }
+
 #th-web-image{
   content: url(images/Web.png);
 }
@@ -151,6 +156,11 @@
   content: url(images/Web_Active.png);
 }
 
+  li a #th-web-image:hover {
+    content: url(images/Web_Active.png);
+    cursor: pointer;
+  }
+
 #th-integrations-image{
   content: url(images/Integrations.png);
 }
@@ -158,6 +168,11 @@
 .selected #th-integrations-image{
   content: url(images/Integrations_Active.png);
 }
+
+  li a #th-integrations-image:hover {
+    content: url(images/Integrations_Active.png);
+    cursor: pointer;
+  }
 
 #th-carousel-indicators {
   display: block;
