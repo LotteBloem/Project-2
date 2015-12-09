@@ -25,8 +25,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="images/Logo_HollandDesign.png" class="th-logo-center hidden-xs"/>
-          <img src="images/Logo_HollandDesign_Small.png" class="th-logo-small hidden-sm hidden-md hidden-lg"/>
+          <a href="home.html">
+            <img src="images/Logo_HollandDesign.png" class="th-logo-center hidden-xs"/>
+            <img src="images/Logo_HollandDesign_Small.png" class="th-logo-small hidden-sm hidden-md hidden-lg"/>
+          </a>
         </div>
       </div>
     </div>
@@ -58,6 +60,9 @@
           <div class="col-md-10">
             <div class="th-text-box-relsci">
                 <p>I have had the opportunity to spend the last two and a half years working at a well funded start-up company where I was an integral part of designing and developing the entire product offering. This opportunity presented me with challenge of quickly adapting to a dynamically changing landscape. During the course of my professional career I have taken on many roles including: product management, user interface/user experience design, quality assurance, and team management.</p>
+                <div class="hidden-lg hidden-md">
+                  <a target="_blank" href="http://www.relsci.com" style="color: #D02B2B;">www.relsci.com</a>
+                </div>
             </div>
           </div>
         </div>
@@ -67,28 +72,36 @@
     <div id="th-relsci-bg">
       <div class="container">
         <div class="row hidden-sm hidden-xs">
-          <div class="col-md-12">
+          <ul id="th-carousel-indicators">
+            <div class="col-md-2">
+              <li> <a id="carousel-selector-0" class="selected">
+                <img id="th-mobile-image" class="pull-left">
+              </a></li>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+              <li> <a id="carousel-selector-1">
+                <img id="th-web-image">
+              </a></li>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+              <li> <a id="carousel-selector-2">
+                <img id="th-integrations-image">
+              </a></li>
+            </div>
+          </ul>
+        </div>
 
-            <!-- thumb navigation carousel items -->
-            <ul id="th-carousel-indicators">
-              <div class="col-md-2">
-                <li> <a id="carousel-selector-0" class="selected">
-                  <img id="th-mobile-image" class="pull-left">
-                </a></li>
-              </div>
-              <div class="col-md-3"></div>
-              <div class="col-md-2">
-                <li> <a id="carousel-selector-1">
-                  <img id="th-web-image">
-                </a></li>
-              </div>
-              <div class="col-md-3"></div>
-              <div class="col-md-2">
-                <li> <a id="carousel-selector-2">
-                  <img id="th-integrations-image">
-                </a></li>
-              </div>
-            </ul>
+        <div class="row hidden-lg hidden-md">
+          <div class="col-sm-4 col-xs-4">
+            <button type="button" id="carousel-selector-0" class="btn th-button selected">Mobile</button>
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <button type="button" id="carousel-selector-1" class="btn th-button">Web</button>
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <button type="button" id="carousel-selector-2" class="btn th-button th-integrations-btn">Integrations</button>
           </div>
         </div>
 
@@ -107,14 +120,14 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-4 pull-left">
-                      <img src="images/Device_LogIn.png">
+                    <div class="col-md-4 col-sm-4 col-xs-4 pull-left">
+                      <img src="images/Device_LogIn.png" class="img-responsive">
                     </div>
-                    <div class="col-md-4" style="text-align: center;">
-                      <img src="images/Device_News.png">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                      <img src="images/Device_News.png" class="img-responsive" style="margin-right: auto; margin-left: auto;">
                     </div>
-                    <div class="col-md-4">
-                      <img src="images/Device_Filter.png" class="pull-right">
+                    <div class="col-md-4 col-sm-4 col-xs-4 ">
+                      <img src="images/Device_Filter.png" class="img-responsive pull-right">
                     </div>
                   </div>
                   <div class="row">
@@ -136,11 +149,11 @@
                   </div>
                   <div class="row">
                     <div class="col-md-6">
-                      <img src="images/RelDiscovery.png" style="margin-left: auto; margin-right: auto;
+                      <img src="images/RelDiscovery.png" class="img-responsive" style="margin-left: auto; margin-right: auto;
                       display: block;">
                     </div>
                     <div class="col-md-6">
-                      <img src="images/Donations.png" style="margin-left: auto; margin-right: auto;
+                      <img src="images/Donations.png" class="img-responsive th-donations-sm" style="margin-left: auto; margin-right: auto;
                       display: block;">
                     </div>
                   </div>

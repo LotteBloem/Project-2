@@ -133,6 +133,7 @@
   top: 0px;
   left: 0;
   right: 0;
+  min-height: 100%;
 }
 
 #th-mobile-image{
@@ -608,6 +609,32 @@ em a{
   z-index: 0;
 }
 
+.th-button {
+  color: #fff;
+  border-color: #fff;
+  background-color: #4a4a4a;
+  border-radius: 3px;
+  font-family: avenir-medium;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.th-button:hover,
+.th-button:active,
+.th-button.selected,
+.th-button .selected {
+  color: #4a4a4a;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 3px;
+}
+
 @media only screen and (max-width: 768px) {
   .th-logo-small{
     display: table;
@@ -642,6 +669,11 @@ em a{
     text-transform: uppercase;
     text-align: center;
   }
+
+  .th-integrations-btn {
+    font-size: xx-small;
+    padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -649,6 +681,10 @@ em a{
     display: table;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .th-donations-sm {
+    margin-top: 20spx;
   }
 }
 
