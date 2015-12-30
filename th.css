@@ -426,7 +426,7 @@ em a{
 
 .th-contact-text{
   display: inline-block;
-  font-size: 14px;
+  font-size: 17px;
   vertical-align: text-bottom;
   margin-left: 5px;
   margin-right: 15px;
@@ -445,8 +445,8 @@ em a{
 
 .th-resume{
   margin-top: 15px;
-  border: 1px solid #333;
-  background-color: #fff;
+  border: none;
+  background-color: none;
 }
 
   .th-resume img{
