@@ -37,38 +37,51 @@
 
   }
 
-#th-web{
+#th-about{
   height: auto;
   width: 100%;
   display: block;
-  background-color: #fafafa;
+  background-color: #4A4A4A;
 }
 
-#web-header{
+#about-header{
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 36pt;
-  color: #333;
+  font-size: 24px;
+  color: #fafafa;
   text-transform: uppercase;
-  text-align: center;
 }
 
-#th-product{
-  background-color: #4a4a4a;
+.th-about-text{
+  font-weight: lighter;
+  font-size: 18px;
+  color: #fafafa;
+  line-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.th-about-photo{
+  margin-bottom: 80px;
+  align: center
+}
+
+#th-projects{
+  background-color: #9B9B9B;
   height: auto;
   width: 100%;
   display: block;
   z-index: 0;
 }
 
-#product-header{
+#projects-header{
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 36pt;
+  font-size: 24px;
   color: #fafafa;
   text-transform: uppercase;
   font-weight: inherit;
-  text-align: center;
 }
 
 #th-contact{
