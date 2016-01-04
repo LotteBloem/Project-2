@@ -12,7 +12,7 @@
     padding: 15px;
   }
 
-  #th-logo-homepage img{
+  #th-logo-banner img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -246,29 +246,38 @@ img.diamond-logo{
   min-height: 800px;
 }
 
-.th-logo {
+.th-logo-header {
+  content: url(images/Logo_Header.png);
   display: table;
   padding: 20px 0px 0px 0px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.th-logo:hover,
-.th-logo:focus {
+.th-logo-header:hover,
+.th-logo-header:focus {
   text-decoration: none;
 }
 
-#th-navbar{
+.th-navbar{
   display: block;
   position: fixed;
   height: 74px;
   width: 100%;
   z-index: 100;
-  background-color: none;
+  -webkit-transition: ease-in 0.3s;
+  -moz-transition: ease-in 0.3s;
+  -ms-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 
-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
-border-bottom: 2px solid #666;
+.th-navbar-scrolled{
+  background-color: #000;
+  border-bottom: 2px solid #000;
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
+  opacity: .9;
+}
 
 .th-nav{
   color: #fafafa;
@@ -286,6 +295,7 @@ border-bottom: 2px solid #666;
 .th-nav li{
   display: inline-block;
   padding-left: 20px;
+  padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
   font-size: 16pt;
@@ -497,7 +507,7 @@ em a{
 }
 
 #th-home-spacer{
-  height: 400px;
+  height: 200px;
   width: 100%;
 }
 
@@ -681,6 +691,13 @@ em a{
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .th-nav li {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
+
 @media only screen and (max-width: 990px) {
   .col-md-3 img {
     display: table;
@@ -692,7 +709,7 @@ em a{
     margin-top: 20px;
   }
 
-  #th-logo-homepage-small{
+  .th-logo-header-small{
     display: table;
     margin-left: auto;
     margin-right: auto;

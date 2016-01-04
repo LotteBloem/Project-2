@@ -17,25 +17,23 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
 </head>
 
-<body data-spy="scroll" data-target="#th-navbar" class="th-font">
+<body data-spy="scroll" data-target=".th-navbar" class="th-font">
 
-<div id="th-navbar" role="navigation">
+<div class="th-navbar hidden-sm hidden-xs" role="navigation">
   <div class="container">
     <div class="row">
       <div class="col-md-1">
-        <div class="th-logo hidden-sm hidden-xs">
-          <a href="#th-logo-homepage"><img class="img-responsive" src="images/Logo_Header.png"/></a>
-        </div>
-        <div id="th-logo-homepage-small" class="hidden-md hidden-lg">
-          <a href="#th-logo-homepage"><img class="img-responsive" src="images/Logo_Header.png"/></a>
-          </div>
+        <a href="#th-home">
+          <div class="th-logo-header img-responsive"></div>
+        </a>
       </div>
       <div class="col-md-6"></div>
       <div class="col-md-5">
-        <div class="nav th-nav pull-right hidden-xs hidden-sm">
-          <ul>
+        <div class="nav th-nav hidden-xs hidden-sm">
+          <ul class="pull-right">
             <li><a href="#home">Home</a></li>
             <li><a href="#web">About</a></li>
             <li><a href="#product">Projects</a></li>
@@ -54,7 +52,7 @@
       <div class="container">
         <div class="row hidden-sm hidden-xs">
           <div class="col-md-12">
-            <div id="th-logo-homepage">
+            <div id="th-logo-banner">
               <img src="images/Logo_Home_HOLLANDDESIGN.png" alt="Logo_Home_HOLLANDDESIGN"/>
             </div>
           </div>
@@ -67,6 +65,9 @@
               </h2>
             </div>
           </div>
+        </div>
+        <div class="th-logo-header-small hidden-md hidden-lg">
+          <img class="img-responsive" src="images/Logo_Header.png"/>
         </div>
         <div id="th-home-spacer" class="hidden-md hidden-lg"></div>
       </div>
@@ -287,5 +288,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="jQuery.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+          if (scroll >= 50) {
+              $(".th-navbar").addClass("th-navbar-scrolled");
+          } else {
+              $(".th-navbar").removeClass("th-navbar-scrolled");
+          }
+      });
+    });
+  </script>
+
 </body>
 </html>
