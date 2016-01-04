@@ -16,21 +16,25 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 274px 0px 100px 0px;
+    padding: 274px 0px 30px 0px;
+    opacity: .75;
   }
 
   #th-title{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 274px;
+    padding: 11px 10px 10px 10px;
+    border: 1px solid #D02B2B;
+    border-radius: 6px;
     text-align: center;
     color: #fafafa;
-    font-weight: normal;
-    margin-top: 100px;
-    margin-bottom: 174px;
-    font-size: 36pt;
-    opacity: .5;
-  }
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 18pt;
+    opacity: .75;
 
-  #th-title em{
-    color: #D02B2B;
   }
 
 #th-web{
@@ -284,7 +288,7 @@ img.diamond-logo{
   height: 74px;
   width: 100%;
   list-style: none;
-  font-family: avenir, helvetica, arial, sans-serif;
+  font-weight: lighter;
 }
 
 .th-nav ul{
@@ -303,6 +307,7 @@ img.diamond-logo{
 
 .th-nav li.active{
   color: #D02B2B;
+  font-weight: 500;
 }
 
 .th-nav li a{
