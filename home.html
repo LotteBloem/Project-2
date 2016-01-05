@@ -17,51 +17,30 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
 </head>
 
-<body data-spy="scroll" data-target="#th-navbar" class="th-font">
+<body data-spy="scroll" data-target=".th-navbar" class="th-font">
 
-<div id="th-navbar" role="navigation">
+<div class="th-navbar hidden-sm hidden-xs" role="navigation">
   <div class="container">
     <div class="row">
-      <div class="col-md-1"></div>
       <div class="col-md-1">
+        <a href="#th-home">
+          <div class="th-logo-header img-responsive"></div>
+        </a>
+      </div>
+      <div class="col-md-6"></div>
+      <div class="col-md-5">
         <div class="nav th-nav hidden-xs hidden-sm">
-          <ul>
+          <ul class="pull-right">
             <li><a href="#home">Home</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="nav th-nav hidden-xs hidden-sm">
-          <ul>
-            <li><a href="#web">Web</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="th-brand hidden-xs">
-          <a href="#th-logo-homepage"><img src="images/Logo_HollandDesign.png"/></a>
-        </div>
-        <div class="th-logo-small hidden-sm hidden-md hidden-lg">
-          <a href="#th-logo-homepage"><img src="images/Logo_HollandDesign_Small.png"/></a>
-          </div>
-      </div>
-      <div class="col-md-1">
-        <div class="nav th-nav hidden-xs hidden-sm">
-          <ul>
-            <li><a href="#product">Product</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="nav th-nav hidden-xs hidden-sm">
-          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
-      <div class="col-md-1"></div>
     </div>
   </div>
 </div>
@@ -71,183 +50,160 @@
     <img class="th-cover" src="images/billyburgbridge.png">
     <div class="th-overlay">
       <div class="container">
-        <div class="row">
+        <div class="row hidden-sm hidden-xs">
           <div class="col-md-12">
-            <div id="th-logo-homepage">
-              <img src="images/Logo.png" alt="Logo"/>
+            <div id="th-logo-banner">
+              <img src="images/Logo_Home_HOLLANDDESIGN.png" alt="Logo_Home_HOLLANDDESIGN"/>
             </div>
           </div>
         </div>
-        <div class="row hidden-xs">
+        <div class="row hidden-sm hidden-xs">
           <div class="col-md-12">
             <div>
               <h2 id="th-title">
-                <div class="level3" style="margin-right: 211px;">Designer</div>
-                <div class="level3" style="margin-right: 241px;">Developer</div>
-                <div class="level3" style="margin-right: 237px;">Brooklynite</div>
+                <div>designer and creative manager</div>
               </h2>
             </div>
           </div>
         </div>
-        <div class="th-spacer hidden-sm hidden-md hidden-lg"></div>
-        <div class="th-spacer hidden-sm hidden-md hidden-lg"></div>
+        <div class="th-logo-header-small hidden-md hidden-lg">
+          <img class="img-responsive" src="images/Logo_Header.png"/>
+        </div>
+        <div id="th-home-spacer" class="hidden-md hidden-lg"></div>
       </div>
     </div>
   </div>
 
-  <div id="web">
-  <div id="th-web">
+  <div id="about"></div>
+  <div id="th-about">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div style="padding-bottom: 20px;">
-            <h2 id="web-header">Web Design <em>.</em></h2>
-            <div class="row">
-              <div class="col-md-12">
-              <a href="RelSci.html" class="th-thumbnail">
-                <div style="position: relative">
-                  <img src="images/RelSci.png">
-                  <div class="more">
-                    <div class="inner">
-                      <div class="more-text">Relationship Science</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-            <a href="blackstone.html" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/Thumb1.png">
-                <div class="more" >
-                  <div class="inner">
-                    <div class="more-text">Blackstone</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
-            <div class="col-md-6">
-            <a href="green_greeks.html" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/Thumb2.png">
-                <div class="more">
-                  <div class="inner">
-                    <div class="more-text">Green Greeks</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-            <a href="monarch.html" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/iPhone6_Monarch.png">
-                <div class="more">
-                  <div class="inner">
-                    <div class="more-text">Monarch</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
-            <div class="col-md-6">
-            <a target="_blank" href="thomas_holland_portfolio_cmpct.pdf" class="th-thumbnail">
-              <div style="position: relative">
-                <img src="images/Desk_Photo.png">
-                <div class="more">
-                  <div class="inner">
-                    <div class="more-text">View Portfolio</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            </div>
-          </div>
+          <div>
+            <h2 id="about-header">about me <em>.</em></h2>
           </div>
         </div>
       </div>
-      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="th-about-text">
+            <p>I am an end to end designer that has experience in a wide variety of design and management roles. I enjoy learning through real life challenges and through a general curiosity for the world around me. I am adept at immersing myself into new situations and gaining a thorough understanding of the problems at hand. I work in the marriage of design and tchnology because I find that creating order from chaos to make people’s lives more enjoyable is what makes me tick.</p>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="th-about-photo">
+            <img src="images/About_Photo.png"/>
+          </div>
+        </div>
     </div>
+  </div>
 
-    <div id="product"></div>
-    <div id="th-product">
+    <div id="projects"></div>
+    <div id="th-projects">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-              <h2 id="product-header">Product Design <em>.</em></h2>
-              <div class="row">
-                <div class="col-md-6">
-                <a href="construction.html" class="th-thumbnail">
-                  <div style="position: relative">
-                    <img src="images/Product1.png">
-                    <div class="more" >
-                      <div class="inner">
-                        <div class="more-text">Aid Kit</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <div class="col-md-6">
-                <a target="_blank" href="http://www.3helix.rpi.edu/?tag=dna-rockstar" class="th-thumbnail">
-                  <div style="position: relative">
-                    <img src="images/Product2.png">
-                    <div class="more">
-                      <div class="inner">
-                        <div class="more-text">DNA Rockstar</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                <a target="_blank" href="http://www.eship.rpi.edu/event_videos33f1.html?q=23" class="th-thumbnail">
-                  <div style="position: relative">
-                    <img src="images/Product3.png">
-                    <div class="more">
-                      <div class="inner">
-                        <div class="more-text">CANESTAND</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="row" style="margin-bottom: 20px;">
-              <div class="col-md-6">
-              <a href="construction.html" class="th-thumbnail">
-                <div style="position: relative">
-                  <img src="images/Product4.png">
-                  <div class="more">
-                    <div class="inner">
-                      <div class="more-text">Branding</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              </div>
-              <div class="col-md-6">
-              <a target="_blank" href="thomas_holland_portfolio_cmpct.pdf" class="th-thumbnail">
-                <div style="position: relative">
-                  <img src="images/Desk_Photo.png">
-                  <div class="more">
-                    <div class="inner">
-                      <div class="more-text">View Portfolio</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              </div>
-            </div>
+              <h2 id="projects-header">Projects <em>.</em></h2>
+          </div>
         </div>
-      </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <a class="th-hover" href="RelSci.html">
+            <div class="th-thumbnail">
+              <img src="images/Projects_RelSci.png"/>
+              <div class="th-caption">
+                <h3>Relationship Science</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a class="th-hover" target="_blank" href="http://www.3helix.rpi.edu/?tag=dna-rockstar">
+              <div class="th-thumbnail">
+                <div class="th-thumbnail-container">
+                  <img style="padding: 0px;" src="images/Projects_DNAhero.png"/>
+                </div>
+                <div class="th-caption">
+                  <h3>DNA Hero</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <a class="th-hover" href="green_greeks.html">
+            <div class="th-thumbnail">
+              <img style="padding-top: 20px; padding-bottom: 12px;"src="images/Projects_GreenGreeks.png"/>
+              <div class="th-caption">
+                <h3>Green Greeks</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a class="th-hover" href="blackstone.html">
+            <div class="th-thumbnail">
+              <img style="padding-top: 20px; padding-bottom: 12px;" src="images/Projects_Blackstone.png"/>
+              <div class="th-caption">
+                <h3>Blackstone</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a class="th-hover" href="monarch.html">
+            <div class="th-thumbnail">
+              <img style="padding-top: 0px; padding-bottom: 0px; margin-bottom: -3px;" src="images/Projects_Monarch.png"/>
+              <div class="th-caption">
+                <h3>Monarch</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <a class="th-hover" href="construction.html">
+            <div class="th-thumbnail">
+              <img style="padding-top: 3px; padding-bottom: 0px;" src="images/Projects_AidKit.png"/>
+              <div class="th-caption">
+                <h3>AidKit</h3>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a class="th-hover" target="_blank" href="http://www.eship.rpi.edu/event_videos33f1.html?q=23">
+              <div class="th-thumbnail">
+                <div class="th-thumbnail-container" style="background-color: #F5B91E">
+                  <img class="img-responsive" src="images/Projects_Canestand.png"/>
+                </div>
+                <div class="th-caption">
+                  <h3>CANESTAND</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <a class="th-hover" target="_blank" href="thomas_holland_portfolio_cmpct.pdf">
+                <div id="th-thumbnail-portfolio">
+                  <img src="images/Projects_Portfolio.png"/>
+                  <div class="th-caption">
+                    <h3>My Portfolio</h3>
+                  </div>
+                </div>
+            </a>
+          </div>
+        </div>
+        <div class="th-spacer"></div>
       </div>
     </div>
 
@@ -309,5 +265,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="jQuery.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+          if (scroll >= 100) {
+              $(".th-navbar").addClass("th-navbar-scrolled");
+          } else {
+              $(".th-navbar").removeClass("th-navbar-scrolled");
+          }
+      });
+    });
+  </script>
+
 </body>
 </html>
