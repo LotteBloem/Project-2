@@ -878,3 +878,15 @@ em a{
     top: auto;
     transform: none;
   }
+
+<!-- FreeWall -->
+
+#fw-container {
+      width: 80%;
+      margin: auto;
+    }
+    .fw-item {
+      background: rgb(135, 199, 135);
+      width: 320px;
+      height: 320px;
+    }

@@ -11,6 +11,10 @@
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="th.css" rel="stylesheet">
 
+  <!-- FreeWall -->
+  <script src="http://vnjs.net/www/project/freewall/example/js/jquery-1.10.2.min.js"></script>
+  <script src="freewall-master/freewall.js"></script>
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -99,6 +103,16 @@
       </div>
       <div class="th-spacer"></div>
     </div>
+  </div>
+
+  <div id="fw-container">
+    <div class="fw-item">Test</div>
+    <div class="fw-item">Test</div>
+    <div class="fw-item">Test</div>
+    <div class="fw-item">Test</div>
+    <div class="fw-item">Test</div>
+    <div class="fw-item"></div>
+    <div class="fw-item"></div>
   </div>
 
     <div id="projects"></div>
@@ -322,6 +336,13 @@
               $(".th-navbar").removeClass("th-navbar-scrolled");
           }
       });
+    });
+  </script>
+
+  <script>
+    $(function() {
+      var wall = new Freewall("#fw-container");
+      wall.fitWidth();
     });
   </script>
 
